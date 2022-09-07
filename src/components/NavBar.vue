@@ -37,7 +37,7 @@
           <h3>Ian Guilan B.Gaudier</h3>
         </v-list-item-title>
       </center>
-      <img src="../assets/c.png" alt="Avatar" style="border-radius: 50%; width:200px; height: auto;">
+      <img src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t39.30808-6/301677153_5812458925465940_3604747781443582779_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGrv2Kxq8C36b4369NiglfrCRrVqQoxmoMJGtWpCjGagzhNS_BByRSsTFTDWF9yNZtVtEDvnnCSwRXLGQ0AJUDX&_nc_ohc=BM2FMfGmTpsAX_pMck_&_nc_ht=scontent.fmnl6-1.fna&oh=00_AT-Qrx1Y7xV6wWCr-aUlUQ0x3vGpjRqpK8QKCCM8DkSWoA&oe=631A1177" alt="Avatar" style="border-radius: 50%; width:200px; height: auto;">
         <br>
       <v-divider></v-divider>
       <v-list-item v-for="item in items" :key="item.title" router :to="item.path" :prepend-icon="item.icon">
